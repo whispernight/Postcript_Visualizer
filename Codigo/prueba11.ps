@@ -1,0 +1,64 @@
+%!PS
+/cuadrado_centrado {
+    newpath
+    100 100 moveto
+    -100 -100 add 0    rlineto
+% igual que -200 0
+
+    0    400 -2 div rlineto
+% igual que 0 -200
+
+    300 100 sub   0   rlineto
+% igual que 200 0
+
+    0     2 100 mul rlineto
+% igual que 0 200
+
+    closepath
+    6 4 mod setlinewidth
+% igual que 2 setlinewidth
+
+} def
+gsave
+
+300 dup translate
+% Equivalente a 300 300 translate
+
+0.7 0 pop setgray
+% Si ha sacado el 0 de la pila el dibujo se verá gris
+
+
+{
+2
+{2{2{2{3
+
+{cuadrado_centrado
+stroke
+15 rotate
+1.2 0.8 exch scale}
+%esto se repetira 2 * 2 * 2 * 2 * 3 = 48 veces
+
+repeat}repeat}
+repeat}repeat}
+repeat
+
+grestore
+gsave
+150 150 translate
+
+5 4 eq 
+{(iguales) show exit}
+{(distintos) show exit}
+ifelse
+% Muestra en (150,150) si 5 es = 4 y sale del bucle loop
+
+}
+loop
+
+
+grestore
+gsave
+280 310 moveto
+(Proyecto ED2) show
+grestore
+showpage

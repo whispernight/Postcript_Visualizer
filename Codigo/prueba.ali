@@ -1,0 +1,60 @@
+V "GNAT Lib v3.15"
+M P W=b
+A -gnatwu
+A -gnato
+A -g
+P
+R nnvnnnnvnnnnnvvvvvvnnvnnnnnnnnnvnvnnnnnnnnnnnnnnvvnn
+
+U prueba%b		prueba.adb		3ddb2253 NE SU IL KU
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		19941113010444 a0108083
+D a-comlin.ads		20020111235410 781800a6
+D a-except.ads		20020130123438 a9cbab76
+D a-finali.ads		19971119123820 d4be2e87
+D a-filico.ads		19970304235844 83058640
+D a-ioexce.ads		19941113042010 d52e128a
+D a-stream.ads		20011114205110 dbe6acb4
+D a-tags.ads		20010330192918 bc792b69
+D a-textio.ads		20000826115840 98d7a37c
+D interfac.ads		19990427033020 6e859da6
+D i-cstrea.ads		20020108155218 4c49c040
+D prueba.adb		20090226113124 dd148189
+D system.ads		20020119084456 2f3d0cfb
+D s-exctab.ads		19990919095916 52f2ffc0
+D s-ficobl.ads		20001027210342 14416104
+D s-finimp.ads		19980220224008 ef65ab1e
+D s-finroo.ads		20001114102810 7e5e077b
+D s-parame.ads		20011130030724 315d7d16
+D s-secsta.ads		19990723142132 e384df23
+D s-soflin.ads		20011129160718 14059e84
+D s-stache.ads		20010607103152 8fc58eaa
+D s-stalib.ads		20010618021954 76713122
+D s-stoele.ads		19980907140906 c6bef0ad
+D s-stratt.ads		20001228150446 9fdf8f81
+D s-unstyp.ads		20011122141014 05ad3732
+D unchconv.ads		19960730024842 1b7a14c5
+X 1 ada.ads
+18K9*Ada 21e8 12|1r6 2r5 3r6 4r5
+X 2 a-comlin.ads
+40K13*Command_Line 138e21 12|1r10 2r9
+43V13*Argument_Count{natural} 12|11r7
+50V13*Argument{string} 12|12r31
+X 9 a-textio.ads
+51K13*Text_IO 442e16 12|3r10 4r9
+54P9*File_Type 12|8r15
+55n23*In_File 12|12r22
+95U14*Open 12|12r7
+101U14*Close 12|13r7
+245U14*Put 12|17r23 18r19
+291X4*Name_Error 12|17r9
+X 12 prueba.adb
+7U11*prueba 19l5 19t11
+8P4 Entrada{9|54P9} 12m13 13m14
+

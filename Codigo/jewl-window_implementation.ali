@@ -1,0 +1,185 @@
+V "GNAT Lib v3.13 "
+A -gnatwu
+A -gnato
+A -g
+P
+R nnvvnnnvnnnnvvvvnvvvvnvnvnnnnnvnnnnnnnvnvnn
+
+U jewl.window_implementation%b  jewl-window_implementation.adb  5675D4F1 PK IU
+W jewl%s		jewl.adb		jewl.ali
+W jewl.message_handling%s  jewl-message_handling.adb  jewl-message_handling.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+
+U jewl.window_implementation%s  jewl-window_implementation.ads  1B452A0D PK IU
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W jewl%s		jewl.adb		jewl.ali
+W jewl.canvas_implementation%s  jewl-canvas_implementation.adb  jewl-canvas_implementation.ali
+W jewl.win32_interface%s  jewl-win32_interface.adb  jewl-win32_interface.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		19941113030442 2359F9ED
+D a-except.ads		20000206125838 287FCF69
+D a-finali.ads		19971119143818 3F32DEEF
+D a-filico.ads		19970305015844 1DECB9AC
+D a-stream.ads		19971119143846 5F7C277B
+D a-tags.ads		19980810213500 45EF7E4E
+D a-tags.adb		20000208190300 59914784
+D a-unccon.ads		19951001012526 751D104C
+D gnat.ads		19951120082014 156A40CF
+D g-htable.ads		19991016131516 231712ED
+D interfac.ads		19990427033020 0357E00A
+D i-c.ads		19970516010708 30F7C341
+D i-cstrin.ads		19941113062132 462439BF
+D jewl.ads		20090227160426 0CB78B38
+D jewl-canvas_implementation.ads  20090227160426 7CD6059E
+D jewl-message_handling.ads  20090227160426 5E9B7F40
+D jewl-win32_interface.ads  20090227160426 25002A19
+D jewl-window_implementation.ads  20090227160426 0D5D2615
+D jewl-window_implementation.adb  20090227160426 05B38DA4
+D system.ads		20000127011654 4379A8A7
+D s-arit64.ads		19961220002852 45DECFCA
+D s-exctab.ads		19990919095914 7A25F5F9
+D s-finimp.ads		19980221004008 1C201C0F
+D s-finroo.ads		19960921225928 166D4EDA
+D s-osinte.ads		20000204163350 6053C40D
+D s-parame.ads		20000204163622 25FE086A
+D s-secsta.ads		19990723142132 60A2A5CD
+D s-soflin.ads		19991222084230 006B24D7
+D s-stache.ads		19990409121030 42B57F2A
+D s-stalib.ads		20000204163632 438B3864
+D s-stoele.ads		19980907140904 131D4539
+D s-stratt.ads		19981014005624 1761725B
+D s-strops.ads		19980415014432 3DBA3DD5
+D s-tasinf.ads		19990211171120 0F7BBEC5
+D s-taspri.ads		19990723125314 39586323
+D s-taskin.ads		19990723125358 09146F23
+D s-taprob.ads		19991118123910 1D5668B3
+D s-tpoben.ads		19990821192230 4D0A0C24
+D s-tasren.ads		19981219013326 0A08BEEB
+D s-tassta.ads		19990729091138 72B0D55C
+D s-unstyp.ads		19990701235612 78AFB91D
+D unchconv.ads		19960730024842 72DC4539
+X 14 jewl.ads
+91U9*JEWL 18|91r6 91r39 92r6 92r39 95r17 19|88r6 90r14 92r7 93r7 94r7
+111R11*Colour_Type 18|236r16
+112i31*Red 19|163r21
+113i31*Green 19|164r21
+114i31*Blue 19|165r21
+199R8 Reference_Counted_Type 18|129r32 220r35
+220R8 Controlled_Type 18|133r21 134r21
+X 15 jewl-canvas_implementation.ads
+89U22*Canvas_Implementation 18|91r11 91r44 19|92r12
+154W18*Canvas_Monitor 18|201r18
+155U15 Clear 19|142r22
+X 16 jewl-message_handling.ads
+93U22*Message_Handling 19|88r11 93r12
+117t8*Message_Loop 19|126r7
+137Y11 Destroy_Window 19|126r20
+X 17 jewl-win32_interface.ads
+91U22*Win32_Interface 18|92r11 92r44 19|94r12
+263I11*Win32_BOOL 19|97r12 157r9
+266M11*Win32_DWORD 19|97r24
+269I11*Win32_LONG 18|142r21
+274M11*Win32_COLORREF 18|231r51
+275M11*Win32_SIZE 18|268r35 276r19
+277A11*Win32_String 18|272r19 273r19 274r27 275r27
+283M11*Win32_HWND 18|131r21 179r15
+288M11*Win32_HFONT 18|137r21
+366R8*Win32_LOGFONT 18|254r24
+453R8*Win32_CHOOSEFONT 18|253r24
+456M7*hwndOwner 19|177r19
+475R8*Win32_CHOOSECOLOR 18|235r24
+478M9*hwndOwner 19|160r19
+480m9*rgbResult 19|159r19 163r52 164r53 165r53
+488R8*Win32_OPENFILENAME 18|271r27
+491M7*hWndOwner 19|188r19 199r19
+516i3*Bool_Dummy 19|110m7
+570U13*RGB 19|159r32
+594U12*ChooseColor 19|161r10
+596U12*ChooseFont 19|178r12
+645U12*DeleteObject 19|110r21
+693U12*GetActiveWindow 19|160r32 177r32 188r32 199r32
+722U12*GetOpenFileName 19|189r12
+726U12*GetSaveFileName 19|200r12
+748U12*IsWindow 19|125r8 141r8
+X 18 jewl-window_implementation.ads
+95U22*Window_Implementation 19|90b19
+97R8*Window_Internals 98r33 129c8 19|144r14 18|145r38 160r35 199r32 19|107r38
+. 128r14
+98P8*Window_Ptr 135r21
+100R8*Container_Internals 101r36 160c8 177r37
+101P8*Container_Ptr 132r21
+131M7*Handle 19|125r24 126r43 141r24
+132p7*Parent
+133r7*Next
+134r7*First
+135p7*Last
+136i7*Action
+137M7*Font 19|109r15 110r42
+138i7*Top
+139i7*Left
+140i7*Height
+141i7*Width
+142i7*WndProc
+145U13*Cleanup 19|107b13 128r5 144r5
+145r22 Object 19|107b22 109r8 110r35
+162e7*Group
+177R8*Main_Window_Internals 19|123r38 18|182r38 184r38
+179M7*Focus
+182P8*Main_Window_Ptr
+184U13*Cleanup 19|123b13
+184r22 Object 19|123b22 125r17 126r36 128r31
+199R8*Canvas_Internals 205r38 207r33 19|139r38
+201w7*Monitor 19|142r14
+202i7*Keypress
+205U13*Cleanup 19|139b13
+205r22 Object 19|139b22 141r17 142r7 144r31
+207P8*Canvas_Ptr
+219R8*Common_Dialog_Internals<14|199R8> 221r40 222r41 233r39 251r37 269r48
+221P8*Common_Dialog_Ptr
+222U12*Show_Dialog
+222p25 Dialog
+231A8*Custom_Colours 237r16
+233R8*Colour_Dialog_Internals<219R8> 19|155r41 18|240r40 242r41
+235r7*Struct 19|159r12 160r12 161r30 163r45 164r46 165r46
+236r7*Colour 19|159r44 163r14 164r14 165r14
+237a7*Custom
+240P8*Colour_Dialog_Ptr
+242U12*Show_Dialog 19|155b12
+242p25 Dialog 19|155b25 159r5 159m19 159r37 160r5 160m19 161r23 161m30 163r7
+. 163m21 163r38 164r7 164m21 164r39 165r7 165m21 165r39
+251R8*Font_Dialog_Internals<219R8> 257r38 259r41 19|174r41
+253r7*Struct 19|177r12 178r31
+254r7*Font
+257P8*Font_Dialog_Ptr
+259U12*Show_Dialog 19|174b12
+259p25 Dialog 19|174b25 177r5 177m19 178r24 178m31
+268R8*File_Dialog_Internals<219R8> 279r38 287r37 298r37
+268m31*N 272r36
+271r7*Struct 19|188r12 189r35 199r12 200r35
+272a7*Title
+273a7*Buffer
+274a7*Directory
+275a7*Filter
+276m7*Length
+279P8*File_Dialog_Ptr
+287R8*Open_Dialog_Internals<268R8> 19|185r41 18|289r41
+289U12*Show_Dialog 19|185b12
+289p25 Dialog 19|185b25 188r5 188m19 189r28 189m35
+298R8*Save_Dialog_Internals<268R8> 19|196r41 18|300r41
+300U12*Show_Dialog 19|196b12
+300p25 Dialog 19|196b25 199r5 199m19 200r28 200m35
+X 19 jewl-window_implementation.adb
+157i5 B 161m5 162r8 167r12
+X 20 system.ads
+41U9*System 18|93r6 131r35 137r36 179r29 19|96r12 109r23
+67M9*Address 19|96r19
+68M4*Null_Address 18|131r42 137r43 179r36 19|109r30
+80U13*"=" 19|109r20
+

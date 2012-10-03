@@ -1,0 +1,21 @@
+%!PS
+/cuadrado_centrado {
+    newpath
+    100 100 moveto
+    -200 0    rlineto
+    0    -200 rlineto
+    200   0   rlineto
+    0     200 rlineto
+    closepath
+    2 setlinewidth
+} def
+300 300 translate
+gsave
+48
+{cuadrado_centrado
+stroke
+15 rotate
+0.8 0.8 scale}
+repeat
+grestore
+showpage

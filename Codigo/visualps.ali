@@ -1,0 +1,78 @@
+V "GNAT Lib v3.13 "
+M P W=b
+A -gnatwu
+A -g
+A -gnato
+P
+R nnvnnnnvnnnnvvvvvvvvnnnnnnnnnnvnnnnnnnnnnnn
+
+U visualps%b		visualps.adb		0615B69A NE SU KU
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W bloque_errores%s	bloque_errores.adb	bloque_errores.ali
+W bloque_principal%s	bloque_principal.adb	bloque_principal.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		19941113030442 2359F9ED
+D a-comlin.ads		19990830191836 0A596D16
+D a-except.ads		20000206125838 287FCF69
+D a-finali.ads		19971119143818 3F32DEEF
+D a-filico.ads		19970305015844 1DECB9AC
+D a-inteio.ads		19941113030258 767F630A
+D a-ioexce.ads		19941113062010 175CB67B
+D a-stream.ads		19971119143846 5F7C277B
+D a-tags.ads		19980810213500 45EF7E4E
+D a-textio.ads		20000206125936 2D24B708
+D a-tiinio.ads		19971119143950 284C234E
+D bloque_errores.ads	20090227160426 5B8E879C
+D bloque_principal.ads	20090227160426 6123C280
+D interfac.ads		19990427033020 0357E00A
+D i-cstrea.ads		19991223143434 70A316EF
+D system.ads		20000127011654 4379A8A7
+D s-exctab.ads		19990919095914 7A25F5F9
+D s-ficobl.ads		19990212183920 0C03FD47
+D s-finimp.ads		19980221004008 1C201C0F
+D s-finroo.ads		19960921225928 166D4EDA
+D s-parame.ads		20000204163622 25FE086A
+D s-secsta.ads		19990723142132 60A2A5CD
+D s-soflin.ads		19991222084230 006B24D7
+D s-stache.ads		19990409121030 42B57F2A
+D s-stalib.ads		20000204163632 438B3864
+D s-stoele.ads		19980907140904 131D4539
+D s-stratt.ads		19981014005624 1761725B
+D s-unstyp.ads		19990701235612 78AFB91D
+D unchconv.ads		19960730024842 72DC4539
+D visualps.adb		20090227160426 6DBA4A92
+X 1 ada.ads
+18U9*Ada 30|18r6 19r5 20r6 21r5 22r6 23r5
+X 2 a-comlin.ads
+40U13*Command_Line 30|18r10 19r9
+43U13*Argument_Count 30|35r7 47r10
+50U13*Argument 30|37r11 37r31 49r24
+X 6 a-inteio.ads
+20U13*Integer_Text_IO 30|22r10 23r9
+X 10 a-textio.ads
+51U13*Text_IO 30|20r10 21r9
+54P9*File_Type 30|32r14
+169U14*New_Line 30|40r7 41r7 43r7 45r7
+245U14*Put 30|39r7 42r7 44r7 50r7
+260U14*Put_Line 30|38r7
+X 11 a-tiinio.ads
+69U14*Put 30|51r7
+X 12 bloque_errores.ads
+10U9*bloque_errores 30|16r6 17r5
+11U14*Procesa_Error 30|55r7
+X 13 bloque_principal.ads
+19U9*Bloque_Principal 30|14r6 15r5
+21U14*ocultar 30|48r7
+24U14*cerrar 30|46r7 52r7 56r7
+27U14*leer_postscript 30|49r7
+X 30 visualps.adb
+30U11*Visualps
+31i4 Error 36m7 49m47 51r11 54r7 55r21
+32P4 Entrada 49m38
+

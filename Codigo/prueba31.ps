@@ -1,0 +1,61 @@
+%!PS
+
+%difinimos la figura (un cuadrado)
+/cuadrado
+{
+    newpath
+    100 100 moveto
+    -200 0    rlineto
+    0    -200 rlineto
+    200   0   rlineto
+    0     200 rlineto
+    closepath
+} def
+
+%definimos los movimientos y bucle, aplicamos traslacion y guardamos en pila
+200 700 translate
+gsave 
+20
+{
+cuadrado
+40 rotate
+0.7 0.7 scale
+stroke
+}
+repeat
+
+
+grestore
+
+
+showpage
+
+%difinimos la figura (un cuadrado)
+/cuadrado
+{
+    newpath
+    100 100 moveto
+    -200 0    rlineto
+    0    -200 rlineto
+    200   0   rlineto
+    0     200 rlineto
+    closepath
+} def
+
+%definimos los movimientos y bucle, aplicamos traslacion y guardamos en pila
+200 700 translate
+gsave 
+20
+{
+cuadrado
+40 rotate
+1.7 1.7 scale
+stroke
+}
+repeat
+
+
+grestore
+
+
+showpage
